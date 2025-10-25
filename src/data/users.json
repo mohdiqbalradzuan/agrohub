@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Admin One",
+        "email": "admin@akuahub.com",
+        "latitude": 3.0733,
+        "longitude": 101.5185,
+        "role": "Admin"
+    },
+    {
+        "id": 2,
+        "name": "Peraih 1",
+        "email": "peraih1@akuahub.com",
+        "latitude": 4.493655970450679,
+        "longitude": 103.1661749030472,
+        "role": "User",
+        "product": "Ikan Kerapu",
+        "quantity": 500
+    },
+    {
+        "id": 3,
+        "name": "Peraih 2",
+        "email": "peraih2@akuahub.com",
+        "latitude": 3.2852256620626323,
+        "longitude": 103.35706234018603,
+        "role": "User",
+        "product": "Udang Vannamei",
+        "quantity": 300
+    }
+]

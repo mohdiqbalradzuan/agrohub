@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
+.app {
+    min-height: 100vh;
+    min-width: 100vw;
+    text-align: center;
+    background-color: #282c34;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app-logo {
+    height: 15vmax;
+    pointer-events: none;
+    border-radius: 10px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    .app-logo {
+        animation: app-logo-spin infinite 20s linear;
+    }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.app-bar {
+    --AppBar-background: #ffb404 !important;
+    --AppBar-color: black !important;
+    height: 65px;
 }
 
-.App-link {
-  color: #61dafb;
+.app-bar-logo {
+    background: rgba(119, 119, 119, 0.963);
+    border-radius: 5px;
+    padding: 0px 10px;
+    display: grid;
+    place-items: center;
+    height: 55px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.main-page-container {
+    display: flex;
+    height: calc(100vh - 65px);
+}
+
+.app-main-page {
+    min-height: 85vh;
+    width: 70vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    z-index: 100;
+    position: relative;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    /* backdrop-filter: blur(5px); */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+@keyframes app-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.scrolling-placeholder::placeholder {
+    /* Initial styling for the placeholder */
+    color: #888;
+    overflow: hidden; /* Hide overflowing text initially */
+    white-space: nowrap; /* Prevent text from wrapping */
+    animation: scrollPlaceholder 10s linear infinite; /* Apply the animation */
+}
+
+@keyframes scrollPlaceholder {
+    0% {
+        text-indent: 0; /* Start with no indent */
+    }
+    50% {
+        /* Adjust this value based on the length of your placeholder text and desired scroll amount */
+        text-indent: -200px; /* Scroll the text to the left */
+    }
+    100% {
+        text-indent: 0; /* Return to the beginning */
+    }
 }
