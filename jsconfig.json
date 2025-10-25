@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./src",
+        "paths": {
+            "@/*": ["*"],
+            "@bg_effect/*": ["bg_effect/*"],
+            "@data/*": ["data/*"],
+            "@components/*": ["components/*"],
+            "@utils/*": ["utils/*"],
+            "@images/*": ["images/*"]
+        }
+    },
+    "include": ["src/**/*"]
+}

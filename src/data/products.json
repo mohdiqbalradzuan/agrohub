@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "category": "Sayuran",
+        "productName": "Cili Padi Merah",
+        "productImage": "images/products/cili_padi_merah.jpeg",
+        "totalAvailableQuantity": 1200,
+        "location": "Selangor, Kedah, Melaka, ..."
+    },
+    {
+        "id": 2,
+        "category": "Sayuran",
+        "productName": "Timun Batang",
+        "productImage": "images/products/timun_batang.jpeg",
+        "totalAvailableQuantity": 100,
+        "location": "WP Kuala Lumpur, Pahang, Negeri Sembilan, ..."
+    },
+    {
+        "id": 3,
+        "category": "Sayuran",
+        "productName": "Terung Bulat",
+        "productImage": "images/products/terung_bulat.jpeg",
+        "totalAvailableQuantity": 500,
+        "location": "Perak, Kelantan, Johor, ..."
+    },
+    {
+        "id": 4,
+        "category": "Ternakan Air Tawar",
+        "productName": "Ikan Tilapia",
+        "productImage": "images/products/ikan_tilapia.jpeg",
+        "totalAvailableQuantity": 5000,
+        "location": "Selangor, Kedah, Melaka, ..."
+    },
+    {
+        "id": 5,
+        "category": "Hasil/Ternakan Laut",
+        "productName": "Udang Harimau",
+        "productImage": "images/products/udang_harimau.jpeg",
+        "totalAvailableQuantity": 6000,
+        "location": "Perak, Kelantan, Johor, ..."
+    },
+    {
+        "id": 6,
+        "category": "Hasil/Ternakan Laut",
+        "productName": "Udang Harimau",
+        "productImage": "images/products/udang_harimau.jpeg",
+        "totalAvailableQuantity": 6000,
+        "location": "Perak, Kelantan, Johor, ..."
+    }
+]

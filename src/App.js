@@ -29,7 +29,7 @@ function App() {
                 />
                 <Routes>
                     <Route path="/" element={<MainPage />} />
-                    <Route path="*" element={<Navigate to="/" />} />
+                    <Route path="/agrohub" element={<MainPage />} />
                 </Routes>
             </Router>
         </div>

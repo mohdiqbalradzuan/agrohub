@@ -1,6 +1,5 @@
 .app {
     min-height: 100vh;
-    min-width: 100vw;
     text-align: center;
     background-color: #282c34;
 }
@@ -32,6 +31,12 @@
     height: 55px;
 }
 
+.app-firstname {
+    -webkit-text-stroke: 1px black;
+    /* font-weight: bold;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+}
+
 .app-header {
     background-color: #282c34;
     min-height: 100vh;
@@ -45,7 +50,23 @@
 
 .main-page-container {
     display: flex;
-    height: calc(100vh - 65px);
+    flex-flow: column;
+}
+
+.main-page-first-section {
+    display: flex;
+    height: calc(100vh + 65px);
+}
+
+.main-page-second-section {
+    display: flex;
+    height: 100%;
+}
+
+.app-card-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .app-main-page {

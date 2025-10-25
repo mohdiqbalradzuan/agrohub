@@ -3,14 +3,14 @@ import { AppBar, Toolbar, Typography, Button } from "@mui/material";
 
 export default function NavBar({ user, onLogout }) {
     return (
-        <AppBar position="static" className="app-bar">
+        <AppBar position="fixed" className="app-bar">
             <Toolbar className="container d-flex justify-content-between p-0">
-                <div className="app-bar-logo">
-                    <Typography variant="h4">
-                        <span className="text-warning">Agro</span>
-                        <span className="text-success-emphasis">hub</span>
-                    </Typography>
-                </div>
+                {/* <div className="app-bar-logo"> */}
+                <Typography variant="h4">
+                    <span className="text-warning app-firstname">Agro</span>
+                    <span className="text-success-emphasis">hub</span>
+                </Typography>
+                {/* </div> */}
                 <div>
                     {user ? (
                         <>
