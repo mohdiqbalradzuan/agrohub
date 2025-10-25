@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/agrohub/static/css/main.b2a763b0.css",
+    "main.js": "/agrohub/static/js/main.da348de7.js",
+    "static/js/453.3f9cdec1.chunk.js": "/agrohub/static/js/453.3f9cdec1.chunk.js",
+    "index.html": "/agrohub/index.html",
+    "main.b2a763b0.css.map": "/agrohub/static/css/main.b2a763b0.css.map",
+    "main.da348de7.js.map": "/agrohub/static/js/main.da348de7.js.map",
+    "453.3f9cdec1.chunk.js.map": "/agrohub/static/js/453.3f9cdec1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2a763b0.css",
+    "static/js/main.da348de7.js"
+  ]
+}
