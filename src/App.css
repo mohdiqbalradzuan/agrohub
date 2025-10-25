@@ -16,10 +16,21 @@
     }
 }
 
+.app-bar-bg {
+    background-color: #282c34;
+    height: 85px;
+    position: fixed;
+    width: 100%;
+    z-index: 10000;
+}
+
 .app-bar {
     --AppBar-background: #ffb404 !important;
     --AppBar-color: black !important;
     height: 65px;
+    border-radius: 10px;
+    margin: 10px;
+    width: calc(100% - 20px) !important;
 }
 
 .app-bar-logo {

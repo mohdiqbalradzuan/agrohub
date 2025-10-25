@@ -6,8 +6,10 @@ import {
     Route,
     Navigate,
 } from "react-router-dom";
-import NavBar from "./components/NavBar";
-import MainPage from "./pages/MainPage";
+import NavBar from "@components/NavBar";
+import MainPage from "@pages/MainPage";
+import Login from "@pages/Login";
+import SignUp from "@pages/SignUp";
 
 import usersData from "./data/users.json";
 
@@ -30,6 +32,8 @@ function App() {
                 <Routes>
                     <Route path="/" element={<MainPage />} />
                     <Route path="/agrohub" element={<MainPage />} />
+                    <Route path="/login" element={<Login />} />
+                    <Route path="/signup" element={<SignUp />} />
                 </Routes>
             </Router>
         </div>

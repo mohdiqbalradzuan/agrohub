@@ -61,7 +61,7 @@ function MainPage() {
                 </div>
 
                 <div
-                    className="main-page-second-section mb-5"
+                    className="main-page-second-section mb-4"
                     id="scroll-target"
                 >
                     <ProductCard />
