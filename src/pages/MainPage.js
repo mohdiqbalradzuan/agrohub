@@ -45,11 +45,11 @@ function MainPage() {
                             <FaIcons.FaMicrophone size="1.5em" />
                         </span>
                     </div>
-                    <span class="h6 fw-light fst-italic pb-5">
-                        Contoh: Boleh dapatkan maklumat penternak ikan Keli di
-                        Selangor?
-                    </span>
                 </form>
+                <span class="h6 fw-light fst-italic pt-2 pb-5">
+                    Contoh: Boleh dapatkan maklumat penternak ikan Keli di
+                    Selangor?
+                </span>
             </div>
         </div>
     );
