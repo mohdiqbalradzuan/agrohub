@@ -1,15 +1,12 @@
 import "./App.css";
 import React, { useState } from "react";
-import {
-    BrowserRouter as Router,
-    Routes,
-    Route,
-    Navigate,
-} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 import NavBar from "@components/NavBar";
 import MainPage from "@pages/MainPage";
 import Login from "@pages/Login";
 import SignUp from "@pages/SignUp";
+import Map from "@pages/Map";
 
 import usersData from "./data/users.json";
 
@@ -34,6 +31,7 @@ function App() {
                     <Route path="/agrohub" element={<MainPage />} />
                     <Route path="/login" element={<Login />} />
                     <Route path="/signup" element={<SignUp />} />
+                    <Route path="/map" element={<Map users={users} />} />
                 </Routes>
             </Router>
         </div>

@@ -1,9 +1,25 @@
+import React from "react";
+import { useNavigate } from "react-router-dom";
+
 import * as FaIcons from "react-icons/fa6";
 import Particles from "@bg_effect/particles";
 import Logo from "@images/logo_square_white.png";
 import ProductCard from "@components/ProductCard";
 
 function MainPage() {
+    const navigate = useNavigate();
+
+    const handleChatbotClick = () => {
+        navigate("/map"); // Navigates to the /dashboard route within your app
+    };
+
+    const handleKeyDown = (e) => {
+        if (e.key === "Enter") {
+            e.preventDefault();
+            navigate("/map"); // Navigates to the /dashboard route within your app
+        }
+    };
+
     return (
         <>
             <Particles
@@ -47,8 +63,12 @@ function MainPage() {
                                     type="text"
                                     className="form-control form-control-lg"
                                     aria-label="chat-input"
+                                    onKeyDown={handleKeyDown}
                                 ></input>
-                                <span className="input-group-text">
+                                <span
+                                    className="input-group-text"
+                                    onClick={handleChatbotClick}
+                                >
                                     <FaIcons.FaMicrophone size="1.5em" />
                                 </span>
                             </div>

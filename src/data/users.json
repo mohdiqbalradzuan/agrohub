@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Admin One",
-        "email": "admin@akuahub.com",
+        "email": "admin@agrohub.com",
         "latitude": 3.0733,
         "longitude": 101.5185,
         "role": "Admin"
@@ -10,7 +10,7 @@
     {
         "id": 2,
         "name": "Peraih 1",
-        "email": "peraih1@akuahub.com",
+        "email": "peraih1@agrohub.com",
         "latitude": 4.493655970450679,
         "longitude": 103.1661749030472,
         "role": "User",
@@ -20,11 +20,61 @@
     {
         "id": 3,
         "name": "Peraih 2",
-        "email": "peraih2@akuahub.com",
+        "email": "peraih2@agrohub.com",
         "latitude": 3.2852256620626323,
         "longitude": 103.35706234018603,
         "role": "User",
         "product": "Udang Vannamei",
         "quantity": 300
+    },
+    {
+        "id": 4,
+        "name": "Peraih 3",
+        "email": "peraih3@agrohub.com",
+        "latitude": 3.9752256620626323,
+        "longitude": 103.35706234018603,
+        "role": "User",
+        "product": "Udang Harimau",
+        "quantity": 800
+    },
+    {
+        "id": 5,
+        "name": "Peraih 4",
+        "email": "peraih4@agrohub.com",
+        "latitude": 2.5352256620626323,
+        "longitude": 111.97706234018603,
+        "role": "User",
+        "product": "Timun Batang",
+        "quantity": 400
+    },
+    {
+        "id": 6,
+        "name": "Peraih 5",
+        "email": "peraih5@agrohub.com",
+        "latitude": 6.27,
+        "longitude": 116.789,
+        "role": "User",
+        "product": "Cili Padi Merah",
+        "quantity": 500
+    },
+    {
+        "id": 7,
+        "name": "Peraih 6",
+        "email": "peraih6@agrohub.com",
+        "latitude": 1.69,
+        "longitude": 103.62,
+        "role": "User",
+        "product": "Bawang Merah",
+        "quantity": 4000
+    },
+    {
+        "id": 8,
+        "name": "Peraih 7",
+        "email": "peraih7@agrohub.com",
+        "latitude": 6.01,
+        "longitude": 100.63,
+        "role": "User",
+        "product": "Kobis Bulat",
+        "quantity": 1000
     }
 ]

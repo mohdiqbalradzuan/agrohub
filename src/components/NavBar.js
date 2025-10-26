@@ -53,6 +53,16 @@ export default function NavBar({ user, onLogout }) {
                                 >
                                     Daftar
                                 </Button>
+                                <Button
+                                    component={Link}
+                                    size="large"
+                                    variant="outlined"
+                                    color="black"
+                                    to="/map"
+                                    sx={{ ml: 2 }}
+                                >
+                                    Peta
+                                </Button>
                             </>
                         )}
                     </div>

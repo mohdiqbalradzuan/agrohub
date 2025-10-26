@@ -1,0 +1,162 @@
+[
+    {
+        "id": "Johor",
+        "name": "Johor",
+        "geoId": "MY01",
+        "style": {
+            "color": "red",
+            "weight": 2,
+            "fillOpacity": 0.5
+        }
+    },
+    {
+        "id": "Kedah",
+        "name": "Kedah",
+        "geoId": "MY02",
+        "style": {
+            "color": "green",
+            "weight": 2,
+            "fillOpacity": 0.5
+        }
+    },
+    {
+        "id": "Kelantan",
+        "name": "Kelantan",
+        "geoId": "MY03",
+        "style": {
+            "color": "gold",
+            "weight": 2,
+            "fillOpacity": 0.5
+        }
+    },
+    {
+        "id": "Melaka",
+        "name": "Melaka",
+        "geoId": "MY04",
+        "style": {
+            "color": "slateblue",
+            "weight": 2,
+            "fillOpacity": 0.5
+        }
+    },
+    {
+        "id": "Negeri Sembilan",
+        "name": "Negeri Sembilan",
+        "geoId": "MY05",
+        "style": {
+            "color": "purple",
+            "weight": 2,
+            "fillOpacity": 0.5
+        }
+    },
+    {
+        "id": "Pahang",
+        "name": "Pahang",
+        "geoId": "MY06",
+        "style": {
+            "color": "black",
+            "weight": 2,
+            "fillOpacity": 0.5
+        }
+    },
+    {
+        "id": "Pulau Pinang",
+        "name": "Pulau Pinang",
+        "geoId": "MY07",
+        "style": {
+            "color": "orange",
+            "weight": 2,
+            "fillOpacity": 0.5
+        }
+    },
+    {
+        "id": "Perak",
+        "name": "Perak",
+        "geoId": "MY08",
+        "style": {
+            "color": "gray",
+            "weight": 2,
+            "fillOpacity": 0.5
+        }
+    },
+    {
+        "id": "Perlis",
+        "name": "Perlis",
+        "geoId": "MY09",
+        "style": {
+            "color": "lightgreen",
+            "weight": 2,
+            "fillOpacity": 0.5
+        }
+    },
+    {
+        "id": "Selangor",
+        "name": "Selangor",
+        "geoId": "MY10",
+        "style": {
+            "color": "blue",
+            "weight": 2,
+            "fillOpacity": 0.5
+        }
+    },
+    {
+        "id": "Terengganu",
+        "name": "Terengganu",
+        "geoId": "MY11",
+        "style": {
+            "color": "brown",
+            "weight": 2,
+            "fillOpacity": 0.5
+        }
+    },
+    {
+        "id": "Sabah",
+        "name": "Sabah",
+        "geoId": "MY12",
+        "style": {
+            "color": "darkgreen",
+            "weight": 2,
+            "fillOpacity": 0.5
+        }
+    },
+    {
+        "id": "Sarawak",
+        "name": "Sarawak",
+        "geoId": "MY13",
+        "style": {
+            "color": "yellowgreen",
+            "weight": 2,
+            "fillOpacity": 0.5
+        }
+    },
+    {
+        "id": "WP Kuala Lumpur",
+        "name": "WP Kuala Lumpur",
+        "geoId": "MY14",
+        "style": {
+            "color": "black",
+            "weight": 2,
+            "fillOpacity": 0.5
+        }
+    },
+    {
+        "id": "WP Labuan",
+        "name": "WP Labuan",
+        "geoId": "MY15",
+        "style": {
+            "color": "cyan",
+            "weight": 2,
+            "fillOpacity": 0.5
+        }
+    },
+    {
+        "id": "WP Putrajaya",
+        "name": "WP Putrajaya",
+        "geoId": "MY16",
+        "style": {
+            "color": "magenta",
+            "weight": 2,
+            "fillOpacity": 0.5
+        }
+    }
+]

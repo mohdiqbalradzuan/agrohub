@@ -19,7 +19,7 @@ import {
 } from "@mui/material";
 import { MuiTelInput } from "mui-tel-input";
 
-import myStates from "@data/my_states.json";
+import myStates from "@data/my-states.json";
 
 function CustomTabPanel(props) {
     const { children, value, index, ...other } = props;
