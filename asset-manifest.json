@@ -1,16 +1,17 @@
 {
   "files": {
     "main.css": "/agrohub/static/css/main.521914ba.css",
-    "main.js": "/agrohub/static/js/main.8a1b1179.js",
+    "main.js": "/agrohub/static/js/main.5dd198bd.js",
     "static/js/453.3f9cdec1.chunk.js": "/agrohub/static/js/453.3f9cdec1.chunk.js",
     "static/media/logo_square_white.png": "/agrohub/static/media/logo_square_white.ed0fe3e927f4ccc1171f.png",
+    "static/media/location-pin.png": "/agrohub/static/media/location-pin.b39e6e0503a926d8ad2e.png",
     "index.html": "/agrohub/index.html",
     "main.521914ba.css.map": "/agrohub/static/css/main.521914ba.css.map",
-    "main.8a1b1179.js.map": "/agrohub/static/js/main.8a1b1179.js.map",
+    "main.5dd198bd.js.map": "/agrohub/static/js/main.5dd198bd.js.map",
     "453.3f9cdec1.chunk.js.map": "/agrohub/static/js/453.3f9cdec1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.521914ba.css",
-    "static/js/main.8a1b1179.js"
+    "static/js/main.5dd198bd.js"
   ]
 }
