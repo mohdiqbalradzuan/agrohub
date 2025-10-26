@@ -18,7 +18,12 @@ function ProductCard() {
             <div className="app-card-page">
                 {productData.map((data) => (
                     <Card
-                        sx={{ minWidth: 400, maxWidth: 400, m: 2 }}
+                        sx={{
+                            minWidth: 400,
+                            maxWidth: 400,
+                            m: 2,
+                            borderRadius: 3,
+                        }}
                         key={data.id}
                     >
                         <CardHeader

@@ -6,12 +6,15 @@ export default function NavBar({ user, onLogout }) {
         <div className="app-bar-bg">
             <AppBar position="fixed" className="app-bar">
                 <Toolbar className="container d-flex justify-content-between p-0">
-                    {/* <div className="app-bar-logo"> */}
-                    <Typography variant="h4">
+                    <Typography
+                        component={Link}
+                        to="/"
+                        variant="h4"
+                        sx={{ textDecoration: "none", color: "inherit" }}
+                    >
                         <span className="text-warning app-firstname">Agro</span>
                         <span className="text-success-emphasis">hub</span>
                     </Typography>
-                    {/* </div> */}
                     <div>
                         {user ? (
                             <>
@@ -25,9 +28,9 @@ export default function NavBar({ user, onLogout }) {
                                     </Button>
                                 )}
                                 <Button component={Link} to="/map">
-                                    Map
+                                    Peta
                                 </Button>
-                                <Button onClick={onLogout}>Logout</Button>
+                                <Button onClick={onLogout}>Log Keluar</Button>
                             </>
                         ) : (
                             <>
@@ -38,7 +41,7 @@ export default function NavBar({ user, onLogout }) {
                                     color="success"
                                     to="/login"
                                 >
-                                    Login
+                                    Log Masuk
                                 </Button>
                                 <Button
                                     component={Link}
@@ -48,7 +51,7 @@ export default function NavBar({ user, onLogout }) {
                                     to="/signup"
                                     sx={{ ml: 2 }}
                                 >
-                                    Sign Up
+                                    Daftar
                                 </Button>
                             </>
                         )}

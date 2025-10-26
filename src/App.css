@@ -88,15 +88,56 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: calc(10px + 2vmin);
     color: white;
     z-index: 100;
     position: relative;
     background: rgba(255, 255, 255, 0.3);
     border-radius: 10px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
-    /* backdrop-filter: blur(5px); */
     border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.login-page-section {
+    display: flex;
+    height: calc(100vh + 0px);
+}
+
+.app-login-logo {
+    height: 15vmax;
+    pointer-events: none;
+    border-radius: 10px;
+}
+
+.app-login-page {
+    min-height: 60vh;
+    width: 60vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    z-index: 100;
+    position: relative;
+}
+
+.login-form {
+    max-width: 400px;
+    text-align: center;
+}
+
+.app-register-page {
+    min-height: 60vh;
+    width: 60vw;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    z-index: 100;
+    position: relative;
 }
 
 @keyframes app-logo-spin {
