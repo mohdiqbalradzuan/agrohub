@@ -32,7 +32,19 @@ function CustomTabPanel(props) {
             aria-labelledby={`simple-tab-${index}`}
             {...other}
         >
-            {value === index && <Box sx={{ p: 0, pt: 1 }}>{children}</Box>}
+            {value === index && (
+                <Box
+                    sx={{
+                        maxHeight: "556px",
+                        overflowY: "auto",
+                        scrollbarWidth: "none",
+                        p: 0,
+                        pt: 1,
+                    }}
+                >
+                    {children}
+                </Box>
+            )}
         </div>
     );
 }
